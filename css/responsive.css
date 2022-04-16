@@ -369,10 +369,10 @@
   }
 
   .single-features * {
-    display: inline-block;
     text-align: center;
   }
-
+  .bk {margin-left: 25px;}
+  .bk img {margin: 43px;}
 
   /* about us */
 
