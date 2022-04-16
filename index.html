@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LifeHosting">
-    <meta name="author" content="Vuske">
+    <meta name="description" content="LifeHosting - хостинг для ваших майнкрафт серверов мечты!">
+    <meta name="author" content="vsecoder">
     <title>LifeHosting | Добро пожаловать</title>
+    <meta property="og:title" content="LifeHosting">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"> 
@@ -18,10 +19,6 @@
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/zacharovannoe-zolotoe-yabloko-01.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/zacharovannoe-zolotoe-yabloko-01.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/zacharovannoe-zolotoe-yabloko-01.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/zacharovannoe-zolotoe-yabloko-01.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/zacharovannoe-zolotoe-yabloko-01.png">
 </head><!--/head-->
 
 <body>
@@ -64,7 +61,7 @@
                 <div class="slide-text">
                     <h1 style="font-weight: bold;">LifeHosting</h1>
                     <p>Мы предоставляем хостинги для серверов Minecraft!</p>
-                    <!--<a href="#" class="btn btn-common"></a>-->
+                    <a href="#one" class="btn btn-common">Тарифы</a>
                 </div>
                 <img src="images/home/slider/slide1/house.png" class="img-responsive slider-house" alt="slider image">
                 <img src="images/home/slider/slide1/cloud1.png" class="slider-cloud1" alt="slider image">
@@ -112,14 +109,13 @@
     </section>
     <!--/#services-->
 	
-
     <section id="action" class="responsive">
         <div class="vertical-center">
              <div class="container">
                 <div class="row">
                     <div class="action take-tour">
                         <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <h1 class="title" style="font-weight: bold;">Тарифы</h1>
+                            <h1 class="title" style="font-weight: bold;" id="one">Тарифы</h1>
                             <p>Тарифы пропорциональны драгоценностям майнкрафта!</p>
                         </div>
                         <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -139,61 +135,106 @@
                 <div class="single-features">
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/ugol.png" class="img-responsive" alt="">
-                        <h2 style="font-weight: bolder;">Уголь</h2>
-                        <P>1 ГБ / 1 ядро</P>
-                        <P>129 рублей/месяц</P>
+                        <h2 style="font-weight: bolder;"><b title="Идеально для первого сервера" style="color: orange">*</b> Уголь</h2>
+                        <P>1GB DDR4 RAM</P>
+                        <p>1 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">129 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/med-slitok.png" class="img-responsive" alt="">
                         <h2 style="font-weight: bolder;">Медь</h2>
-                        <P>2 ГБ / 1.5 ядра</P>
-                        <P>199 рублей/месяц</P>
+                        <P>2GB DDR4 RAM</P>
+                        <p>1.5 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">199 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/zheleznyj-slitok.png" class="img-responsive" alt="">
                         <h2 style="font-weight: bolder;">Железо</h2>
-                        <P>3 ГБ / 2 ядра</P>
-                        <P>259 рублей/месяц</P>
+                        <P>3GB DDR4 RAM</P>
+                        <p>2 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">259 рублей/месяц</P>
                     </div>
                 </div>
                 <div class="single-features">
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/olov-slitok.png" class="img-responsive" alt="">
                         <h2 style="font-weight: bolder;">Олово</h2>
-                        <P>4 ГБ / 2 ядра</P>
-                        <P>349 рублей/месяц</P>
+                        <P>4GB DDR4 RAM</P>
+                        <p>2 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">349 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/sere-slitok.png" class="img-responsive" alt="">
-                        <h2 style="font-weight: bolder;">Серебро</h2>
-                        <P>5 ГБ / 2 ядра</P>
-                        <P>399 рублей/месяц</P>
+                        <h2 style="font-weight: bolder;"><b title="Подходит для комфортной игры на 1.12.2" style="color: orange">*</b> Серебро</h2>
+                        <P>5GB DDR4 RAM</P>
+                        <p>2 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">399 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/zolotoj-slitok.png" class="img-responsive" alt="">
-                        <h2 style="font-weight: bolder;">* Золото</h2>
-                        <P>6 ГБ / 3 ядра</P>
-                        <P>499 рублей/месяц</P>
+                        <h2 style="font-weight: bolder;">Золото</h2>
+                        <P>6GB DDR4 RAM</P>
+                        <p>3 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">499 рублей/месяц</P>
                     </div>
                 </div>
                 <div class="single-features">
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/izumrud-v-minecrafte.png" class="img-responsive" alt="">
-                        <h2 style="font-weight: bolder;">Изумруд</h2>
-                        <P>8 ГБ / 4 ядра</P>
-                        <P>679 рублей/месяц</P>
+                        <h2 style="font-weight: bolder;"><b title="Подходит для комфортной игры на 1.18" style="color: orange">*</b> Изумруд</h2>
+                        <P>8GB DDR4 RAM</P>
+                        <p>4 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">679 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/almaz-v-minecrafte.png" class="img-responsive" alt="">
-                        <h2 style="font-weight: bolder;">Алмаз</h2>
-                        <P>10 ГБ / 4 ядра</P>
-                        <P>929 рублей/месяц</P>
+                        <h2 style="font-weight: bolder;"><b title="Идеально для 1.18" style="color: orange">*</b> Алмаз</h2>
+                        <P>10GB DDR4 RAM</P>
+                        <p>4 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">929 рублей/месяц</P>
                     </div>
                     <div class="col-sm-3 wow fadeInLeft bk" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/nezeritovyi-slitok.png" class="img-responsive" alt="">
                         <h2 style="font-weight: bolder;">Незерит</h2>
-                        <P>12 ГБ / 5 ядер</P>
-                        <P>1199 рублей/месяц</P>
+                        <P>12GB DDR4 RAM</P>
+                        <p>5 ядра Ryzen x 4.2 Ghz</P>
+                        <p>20GB NVME Диск</P>
+                        <p>Бесплатные MYSQL БД</P>
+                        <p>Бесплатные Бекапы</P>
+                        <p>Безлимитные слоты</P>
+                        <P style="color: orange; font-weight: bold">1199 рублей/месяц</P>
                     </div>
                 </div>
             </div>
@@ -211,7 +252,7 @@
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><h3>mc.test.ru</h3></a>
+                            <a href="//craftsquade.ru"><h3>mc.craftsquade.ru</h3></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
                             <a href="#"><h3>mc.test.ru</h3></a>
