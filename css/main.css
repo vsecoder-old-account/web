@@ -390,7 +390,8 @@ ul.sub-menu {
 
 .bk a {
   font-weight: bold;
-  background-color: rgba(236, 157, 38, 0.4);
+  color: white;
+  background-color: rgb(236, 157, 38);
   margin-left: 40%;
   margin-top: 20px;
 }
