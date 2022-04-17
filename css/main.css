@@ -2,11 +2,13 @@
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
   body {
     background: #eee;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     line-height: 22px;
     color: #000;
@@ -45,8 +47,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
   }
 
   h1{
@@ -75,7 +77,7 @@
     color: #797979;
     border: 1px solid #dbb075;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     padding: 10px 25px;
   }
 
@@ -195,7 +197,7 @@
   height: 40px;
   font-size: 18px;
   color: #818285;
-  font-weight: 300;
+  font-weight: 500;
   outline: none;
   border: 1px solid #dbb075;
   margin-top: 20px;
@@ -253,7 +255,7 @@
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 #header .navbar-inverse .navbar-nav  li.active > a,  
@@ -356,21 +358,51 @@ ul.sub-menu {
 
 .bk {
   box-shadow: 0px 8px 30px rgba(81, 52, 8, 0.2);
-  padding-left: 45px;
-  padding-top: 10px;
+  padding-left: 40px;
+  padding-top: 5px;
   padding-right: 45px;
   padding-bottom: 30px;
   border-radius: 10px;
   margin: 20px;
   margin-left: 55px;
   transition: all 0.3s;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
 }
 
+.bk * {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: left;
+}
+
+.bk h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.bk p {
+  font-weight: 500;
+}
+
+.bk a {
+  font-weight: bold;
+  background-color: rgba(236, 157, 38, 0.4);
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
 .bk img {
-  width: 150px;
+  width: 30px;
   margin: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .bk:hover {
@@ -470,7 +502,7 @@ ul.sub-menu {
 
 .form-control {
   border: 1px solid #d99c4e;
-  font-weight: 300;
+  font-weight: 500;
   outline: none;
   box-shadow: none;
   height: 40px;
@@ -488,7 +520,7 @@ ul.sub-menu {
   background-color: #d89b4e;
   color: #fff;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 5px;
   text-transform: uppercase;
   border-radius: 3px;
@@ -711,7 +743,7 @@ ul.sub-menu {
 .action p{
   font-size: 18px;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .action .btn-common{
@@ -721,7 +753,7 @@ ul.sub-menu {
 
 .title {
   color: #404040;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .single-features {
@@ -859,14 +891,14 @@ ul.sub-menu {
 }
 
 .person-info h2 {
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 5px;
 }
 
 .person-info h3 {
   font-size: 16px;
   color: #686868;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1097,7 +1129,7 @@ ul.elements li > i{
   border-radius: 0;
   color: #686868;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   padding: 0 25px;
   text-transform: capitalize;
   border: none;
@@ -1322,7 +1354,7 @@ Portfolio with right sidebar
 
 .tag-cloud .nav-pills li a{
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   padding: 5px 15px;
   background: #bbbbbb;
   color: #fff;
@@ -1569,7 +1601,7 @@ Blog Default
 .timeline-date .btn-common{
   font-size: 18px;
   color: #4a4a4a;
-  font-weight: 300;
+  font-weight: 500;
   border-radius: 0;
   padding: 17px 40px;
 }
@@ -1622,13 +1654,13 @@ Blog Default
 }
 
 .post-content  .post-author a{
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
 }
 
 a.read-more{
   color: #a5732a;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 a.read-more:hover{
@@ -1680,7 +1712,7 @@ Blog with right sidebar
 
 .single-blog .post-overlay span a small{
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   margin-left: 5px;
 }
 
