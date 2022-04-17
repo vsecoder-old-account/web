@@ -386,6 +386,7 @@ ul.sub-menu {
 
 .bk p {
   font-weight: 500;
+  vertical-align: middle;
 }
 
 .bk a {
@@ -396,7 +397,11 @@ ul.sub-menu {
   margin-top: 20px;
 }
 
-.bk img {
+.bk i {
+  font-size: 25px
+}
+
+.bk .img-responsive {
   width: 30px;
   margin: 25px;
   margin-left: 0px;
@@ -404,6 +409,13 @@ ul.sub-menu {
   margin-top: 30px;
   vertical-align: middle;
   display: inline-block;
+}
+
+.ico {
+  width: 15px;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 5px;
 }
 
 .bk:hover {
