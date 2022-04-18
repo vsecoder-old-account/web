@@ -5,7 +5,7 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
   body {
     background: #eee;
@@ -2671,5 +2671,5 @@ span.stButton_gradient,
 }
 
 .navbar-brand h1 {
-  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Modak', cursive;
 }
