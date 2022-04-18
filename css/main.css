@@ -20,13 +20,13 @@
 
 
   a{
-    color:#a5732a;
+    color:#12509e;
   }
 
   a:hover {
     outline: none;
     text-decoration:none;
-    color:#dab074;
+    color:#207fa1;
   }
 
   a:focus {
@@ -75,7 +75,7 @@
   .btn-common {
     font-size: 14px;
     color: #797979;
-    border: 1px solid #dbb075;
+    border: 1px solid rgba(21, 91, 105, 0.2);
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     padding: 10px 25px;
@@ -95,7 +95,7 @@
     outline: none;
     background: none;
     box-shadow: none;
-    color: #d29948;
+    color: rgba(21, 91, 105, 0.4);
   }
 
   .align-right{
@@ -227,7 +227,7 @@
 }
 
 #header .navbar {
-  background: #eee;
+  background: none;
   border: 0;
   margin-bottom: 0;
 }
@@ -357,7 +357,7 @@ ul.sub-menu {
 }
 
 .bk {
-  box-shadow: 0px 8px 30px rgba(81, 52, 8, 0.2);
+  box-shadow: 0px 8px 30px #223f494b;
   padding-left: 40px;
   padding-top: 5px;
   padding-right: 45px;
@@ -368,6 +368,42 @@ ul.sub-menu {
   transition: all 0.3s;
   text-align: left;
   cursor: pointer;
+}
+
+.bd:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: -450px;
+}
+
+.bd:after {
+  z-index: -1;
+  transform-origin: left bottom;
+  transform: skewY(3.6deg);
+}
+
+.bt:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: -450px;
+}
+
+.bt:after {
+  z-index: -1;
+  transform-origin: left bottom;
+  transform: skewY(3.6deg);
 }
 
 .bk * {
@@ -392,7 +428,7 @@ ul.sub-menu {
 .bk a {
   font-weight: bold;
   color: white;
-  background-color: rgb(236, 157, 38);
+  background-color: #12509e;
   margin-left: 40%;
   margin-top: 20px;
 }
@@ -420,7 +456,7 @@ ul.sub-menu {
 }
 
 .bk:hover {
-  box-shadow: 0px 8px 30px rgba(81, 52, 8, 0.4);
+  box-shadow: 0px 8px 30px #12509e;
 }
 
 
@@ -561,7 +597,6 @@ ul.sub-menu {
 **************************/
 
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
 }
 
@@ -704,8 +739,8 @@ ul.sub-menu {
 
 #action, 
 #page-breadcrumb {
-  background-image: url(../images/home/tour-bg.png);
-  background-color: #fbfafa;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, #12519e9a 0%,rgba(255,255,255,0) 100%); 
   background-repeat: repeat-x;
   height: 155px;
   background-position: center;
@@ -830,7 +865,7 @@ ul.sub-menu {
 }
 
 .tour-button {
-  background-image: url(../images/home/tour-icon2.png);
+  background-image: url(../images/cloud-data.png);
   height: 100%;
   background-repeat: no-repeat;
   position: absolute;
