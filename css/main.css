@@ -5,7 +5,7 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
 
   body {
     background: #eee;
@@ -2670,6 +2670,17 @@ span.stButton_gradient,
   padding: 12px 27px;
 }
 
+@font-face {
+  font-family: "Indigo Outline";
+  src: url("../fonts/Indigo\ Outline.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Indigo Regular";
+  font-weight: bold;
+  src: url("../fonts/Indigo\ Regular.otf") format("opentype");
+}
+
 .navbar-brand h1 {
-  font-family: 'Modak', cursive;
+  font-family: 'Indigo Regular', cursive;
 }
