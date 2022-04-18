@@ -4,6 +4,7 @@
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
   body {
     background: #eee;
@@ -47,7 +48,6 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
   }
 
@@ -563,6 +563,7 @@ ul.sub-menu {
 
 #home-slider {
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #home-slider .main-slider {
@@ -2662,4 +2663,8 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+
+.btn:hover {
+  padding: 12px 27px;
 }
