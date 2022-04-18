@@ -367,6 +367,13 @@
 
   .bk {margin-left: 25px;}
 
+  #home-slider .slider-house {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+  }
+
   /* about us */
 
   .team-single {
