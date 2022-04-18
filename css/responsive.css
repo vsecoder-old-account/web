@@ -367,6 +367,11 @@
 
   .bk {margin-left: 25px;}
 
+  .bd {
+    height: 125%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+
   #home-slider .slider-house {
     position: absolute;
     right: 0;
