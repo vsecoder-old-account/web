@@ -368,7 +368,7 @@
   .bk {margin-left: 25px;}
 
   .bd {
-    height: 125%;
+    height: 90%;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
 
@@ -376,6 +376,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    bottom: -40px;
     width: auto;
   }
 
